@@ -1,0 +1,12 @@
+{
+  "population": {
+
+    "known_citizens": 4,
+
+    "discovered_citizens": 100,
+
+    "undiscovered_citizens": "exists",
+
+    "growth": "active"
+  }
+}
