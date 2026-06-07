@@ -1,0 +1,52 @@
+{
+  "families": [
+
+    {
+      "family_id": "ADEYEMI",
+
+      "status": "existing",
+
+      "region": "Africa",
+
+      "members": [
+        "Ariel Adeyemi"
+      ]
+    },
+
+    {
+      "family_id": "OKORO",
+
+      "status": "existing",
+
+      "region": "Africa",
+
+      "members": [
+        "Nia Okoro"
+      ]
+    },
+
+    {
+      "family_id": "HARTWELL",
+
+      "status": "existing",
+
+      "region": "Western",
+
+      "members": [
+        "Luca Hartwell"
+      ]
+    },
+
+    {
+      "family_id": "HART",
+
+      "status": "existing",
+
+      "region": "Western",
+
+      "members": [
+        "Amara Hart"
+      ]
+    }
+  ]
+}
