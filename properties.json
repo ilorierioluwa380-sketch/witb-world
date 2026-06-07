@@ -1,0 +1,18 @@
+{
+  "properties": [
+
+    {
+      "name": "Ariel Apartment",
+      "district": "Kori Heights",
+      "owner": "Ariel Adeyemi",
+      "type": "Residential"
+    },
+
+    {
+      "name": "Nia Apartment",
+      "district": "Kori Heights",
+      "owner": "Nia Okoro",
+      "type": "Residential"
+    }
+  ]
+}
