@@ -2,7 +2,6 @@
 <html>
 <head>
 <title>WITB World</title>
-
 <style>
 body{
     background:#111;
@@ -10,18 +9,15 @@ body{
     font-family:Arial,sans-serif;
     padding:20px;
 }
-
 .card{
     background:#222;
     border-radius:12px;
     padding:15px;
     margin-bottom:15px;
 }
-
 h1,h2{
     margin-top:0;
 }
-
 .citizen{
     margin-bottom:12px;
     padding-bottom:12px;
@@ -29,38 +25,29 @@ h1,h2{
 }
 </style>
 </head>
-
 <body>
-
 <h1>🌍 WITB World</h1>
-
 <div class="card">
 <h2>World Status</h2>
 <p>Active</p>
 </div>
-
 <div class="card">
 <h2>World Time</h2>
 <p id="clock"></p>
 </div>
-
 <div class="card">
 <h2>World Age</h2>
 <p id="age"></p>
 </div>
-
 <div class="card">
 <h2>Citizens</h2>
 <div id="citizens"></div>
 </div>
-
 <div class="card">
 <h2>Recent Events</h2>
 <div id="events"></div>
 </div>
-
 <script>
-
 const world = {
     seconds:0,
     minutes:0,
@@ -69,7 +56,6 @@ const world = {
     years:0,
     centuries:0
 };
-
 const citizens = [
 {
     name:"Ariel",
@@ -77,7 +63,18 @@ const citizens = [
     mood:"Focused",
     energy:90,
     goal:"Build prototype",
-    action:"Designing"
+    action:"Designing",
+    timezone:"africa",
+    home:"Kori Heights Apartment",
+    knownPeople:[],
+    memories:[],
+    discoveries:[],
+    relationships:[],
+    workFocus:"Brand Research",
+    sleepHours:8,
+    reputation:0,
+    creativity:90,
+    socialLevel:40
 },
 {
     name:"Nia",
@@ -85,7 +82,18 @@ const citizens = [
     mood:"Determined",
     energy:85,
     goal:"Improve sprint time",
-    action:"Training"
+    action:"Training",
+    timezone:"africa",
+    home:"Track Residence",
+    knownPeople:[],
+    memories:[],
+    discoveries:[],
+    relationships:[],
+    workFocus:"Performance Development",
+    sleepHours:8,
+    reputation:0,
+    creativity:60,
+    socialLevel:35
 },
 {
     name:"Luca",
@@ -93,7 +101,18 @@ const citizens = [
     mood:"Analytical",
     energy:95,
     goal:"Optimize engine",
-    action:"Analyzing"
+    action:"Analyzing",
+    timezone:"western",
+    home:"Tech Row Apartment",
+    knownPeople:[],
+    memories:[],
+    discoveries:[],
+    relationships:[],
+    workFocus:"Innovation",
+    sleepHours:7,
+    reputation:0,
+    creativity:85,
+    socialLevel:25
 },
 {
     name:"Amara",
@@ -101,46 +120,47 @@ const citizens = [
     mood:"Creative",
     energy:80,
     goal:"Prepare studio",
-    action:"Planning"
+    action:"Planning",
+    timezone:"western",
+    home:"Western Apartment",
+    knownPeople:[],
+    memories:[],
+    discoveries:[],
+    relationships:[],
+    workFocus:"Fashion Design",
+    sleepHours:8,
+    reputation:0,
+    creativity:95,
+    socialLevel:70
 }
 ];
-
 let events = [];
-
 function updateClock(){
     document.getElementById("clock").innerHTML =
     new Date().toLocaleString();
 }
-
 function updateWorldAge(){
-
     world.seconds++;
-
     if(world.seconds >= 60){
         world.seconds = 0;
         world.minutes++;
     }
-
     if(world.minutes >= 60){
         world.minutes = 0;
         world.hours++;
     }
-
     if(world.hours >= 24){
         world.hours = 0;
         world.days++;
     }
-
     if(world.days >= 365){
         world.days = 0;
         world.years++;
     }
-
     if(world.years >= 100){
         world.years = 0;
         world.centuries++;
     }
-
     document.getElementById("age").innerHTML =
     world.centuries + " centuries, " +
     world.years + " years, " +
@@ -149,9 +169,7 @@ function updateWorldAge(){
     world.minutes + " minutes, " +
     world.seconds + " seconds";
 }
-
 function updateCitizens(){
-
     const actions = [
         "Thinking",
         "Working",
@@ -162,32 +180,33 @@ function updateCitizens(){
         "Learning",
         "Exploring"
     ];
-
     let html = "";
-
     citizens.forEach(c=>{
-
         c.energy += Math.floor(Math.random()*7)-3;
-
         if(c.energy > 100) c.energy = 100;
         if(c.energy < 0) c.energy = 0;
-
         c.action =
         actions[Math.floor(Math.random()*actions.length)];
-
         html += `
         <div class="citizen">
         <strong>${c.name}</strong><br>
+        Timezone: ${c.timezone}<br>
         Location: ${c.location}<br>
+        Home: ${c.home}<br>
         Mood: ${c.mood}<br>
         Goal: ${c.goal}<br>
         Action: ${c.action}<br>
-        Energy: ${c.energy}
+        Energy: ${c.energy}<br>
+        Work Focus: ${c.workFocus}<br>
+        Creativity: ${c.creativity}<br>
+        Social Level: ${c.socialLevel}<br>
+        Known People: ${c.knownPeople.length}<br>
+        Relationships: ${c.relationships.length}<br>
+        Discoveries: ${c.discoveries.length}<br>
+        Memories: ${c.memories.length}
         </div>
         `;
-
         if(Math.random() < 0.25){
-
             events.unshift(
             new Date().toLocaleTimeString() +
             " — " +
@@ -195,29 +214,21 @@ function updateCitizens(){
             " is " +
             c.action
             );
-
             if(events.length > 10){
                 events.pop();
             }
         }
-
     });
-
     document.getElementById("citizens").innerHTML = html;
-
     document.getElementById("events").innerHTML =
     events.join("<br>");
 }
-
 setInterval(updateClock,1000);
 setInterval(updateWorldAge,1000);
 setInterval(updateCitizens,5000);
-
 updateClock();
 updateWorldAge();
 updateCitizens();
-
 </script>
-
 </body>
 </html>
