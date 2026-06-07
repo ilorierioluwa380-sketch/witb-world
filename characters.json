@@ -1,0 +1,24 @@
+{
+  "characters": {
+    "Ariel": {
+      "district": "Kori Heights",
+      "role": "Perspective",
+      "status": "active"
+    },
+    "Nia": {
+      "district": "Kori Heights",
+      "role": "Creation",
+      "status": "active"
+    },
+    "Luca": {
+      "district": "Kori Heights",
+      "role": "Growth",
+      "status": "active"
+    },
+    "Amara": {
+      "district": "Western Apartment",
+      "role": "Connection",
+      "status": "active"
+    }
+  }
+}
