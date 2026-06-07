@@ -1,6 +1,49 @@
 {
-  "known_citizens": [],
+  "known_citizens": [
+    {
+      "name": "Ariel",
+      "location": "Kori Heights",
+      "mood": "Focused",
+      "goal": "Build prototype",
+      "action": "Planning",
+      "energy": 88,
+      "memories": [],
+      "known_people": []
+    },
+    {
+      "name": "Nia",
+      "location": "Track",
+      "mood": "Determined",
+      "goal": "Improve sprint time",
+      "action": "Training",
+      "energy": 83,
+      "memories": [],
+      "known_people": []
+    },
+    {
+      "name": "Luca",
+      "location": "Tech Row",
+      "mood": "Analytical",
+      "goal": "Optimize engine",
+      "action": "Researching",
+      "energy": 94,
+      "memories": [],
+      "known_people": []
+    },
+    {
+      "name": "Amara",
+      "location": "Western District",
+      "mood": "Creative",
+      "goal": "Prepare studio",
+      "action": "Creating",
+      "energy": 76,
+      "memories": [],
+      "known_people": []
+    }
+  ],
+
   "discovered_citizens": [],
+
   "districts": [
     "Kori Heights",
     "Western District",
