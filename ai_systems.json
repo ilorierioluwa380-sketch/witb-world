@@ -1,0 +1,22 @@
+{
+  "ai_systems": [
+
+    {
+      "name": "World Visualizer",
+      "purpose": "Generate canon citizen imagery",
+      "status": "active"
+    },
+
+    {
+      "name": "World Archivist",
+      "purpose": "Track timeline and history",
+      "status": "active"
+    },
+
+    {
+      "name": "World Builder",
+      "purpose": "Assist creation of locations and citizens",
+      "status": "active"
+    }
+  ]
+}
