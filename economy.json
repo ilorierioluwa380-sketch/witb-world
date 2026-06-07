@@ -1,0 +1,25 @@
+{
+  "economy": {
+
+    "status": "active",
+
+    "creation_driven": true,
+
+    "resources": [
+      "Time",
+      "Skill",
+      "Knowledge",
+      "Materials",
+      "Creativity"
+    ],
+
+    "outputs": [
+      "Products",
+      "Services",
+      "Technology",
+      "Fashion",
+      "Buildings",
+      "Communities"
+    ]
+  }
+}
