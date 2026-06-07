@@ -1,0 +1,11 @@
+{
+  "products": [
+
+    {
+      "name": "Still Becoming Tee",
+      "creator": "WITB",
+      "category": "Fashion",
+      "status": "active"
+    }
+  ]
+}
