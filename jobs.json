@@ -1,0 +1,28 @@
+{
+  "jobs": [
+
+    {
+      "title": "Brand Builder",
+      "field": "Brand Development",
+      "description": "Creates ideas, products and direction for brands."
+    },
+
+    {
+      "title": "Performance Developer",
+      "field": "Athletics",
+      "description": "Improves physical capability and training systems."
+    },
+
+    {
+      "title": "Systems Architect",
+      "field": "Innovation",
+      "description": "Designs structures, technology and world systems."
+    },
+
+    {
+      "title": "Community Builder",
+      "field": "Growth",
+      "description": "Strengthens relationships and social development."
+    }
+  ]
+}
