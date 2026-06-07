@@ -1,0 +1,27 @@
+{
+  "organizations": [
+
+    {
+      "name": "WITB",
+
+      "type": "Brand",
+
+      "status": "active",
+
+      "purpose": [
+        "Creation",
+        "Growth",
+        "Discovery"
+      ],
+
+      "founder": "Founder",
+
+      "known_members": [
+        "Ariel Adeyemi",
+        "Nia Okoro",
+        "Luca Hartwell",
+        "Amara Hart"
+      ]
+    }
+  ]
+}
