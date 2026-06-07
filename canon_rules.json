@@ -1,11 +1,32 @@
 {
   "world_name": "WITB World",
-  "version": "1.0",
+  "version": "2.0",
+
   "laws": {
     "co_creation": true,
     "eternal_motion": true,
-    "big_ari_pov": true,
-    "discovery_law": true
+    "discovery_law": true,
+
+    "independent_life": true,
+
+    "citizens_start_as_strangers": true,
+
+    "friendships_require_meeting": true,
+
+    "memories_affect_future_choices": true,
+
+    "new_people_can_be_discovered": true,
+
+    "new_places_can_be_discovered": true,
+
+    "africa_timezone": true,
+
+    "western_timezone": true,
+
+    "western_hours_behind_africa": 6,
+
+    "canon_history_cannot_be_rewritten": true
   },
+
   "status": "active"
 }
