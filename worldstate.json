@@ -1,0 +1,23 @@
+{
+  "world_time": "2026-06-07T15:43:00",
+  "status": "active",
+  "characters": {
+    "Ariel": {
+      "location": "Kori Heights",
+      "action": "mock up shipped to Amara"
+    },
+    "Nia": {
+      "location": "Track",
+      "action": "finishing sprints"
+    },
+    "Luca": {
+      "location": "System",
+      "action": "analyzing cost of version 2"
+    },
+    "Amara": {
+      "location": "Western Apartment",
+      "action": "getting ready for studio"
+    }
+  },
+  "canon_hash": "sha256-s2optv3imq3fm1vc"
+}
