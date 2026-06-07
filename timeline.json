@@ -1,8 +1,19 @@
-{
+{{
   "world_birth_year": 0,
-  "current_year": 127,
-  "current_day": 43,
-  "current_hour": 11,
-  "current_minute": 0,
-  "current_second": 0
+
+  "africa_time": {
+    "year": 127,
+    "day": 43,
+    "hour": 8,
+    "minute": 0,
+    "second": 0
+  },
+
+  "western_time": {
+    "year": 127,
+    "day": 43,
+    "hour": 2,
+    "minute": 0,
+    "second": 0
+  }
 }
