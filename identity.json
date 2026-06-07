@@ -1,0 +1,120 @@
+{
+  "core_identities": [
+
+    {
+      "name": "Ariel Adeyemi",
+
+      "trinity": ["Heart", "Creation", "Growth"],
+
+      "region": "Africa",
+      "district": "Kori Heights",
+
+      "appearance_ref": "ariel_v1",
+      "apartment_ref": "ariel_apartment_v1",
+
+      "personality": [
+        "Disciplined",
+        "Observant",
+        "Creative",
+        "Curious",
+        "Loyal"
+      ],
+
+      "style": [
+        "Clean Streetwear",
+        "Neutral Colors",
+        "Relaxed Fit"
+      ],
+
+      "life_rules": [
+        "Think before speaking",
+        "Build something real",
+        "Stay becoming"
+      ],
+
+      "identity_locked": true
+    },
+
+    {
+      "name": "Nia Okoro",
+
+      "trinity": ["Growth"],
+
+      "region": "Africa",
+      "district": "Track District",
+
+      "appearance_ref": "nia_v1",
+      "apartment_ref": "nia_apartment_v1",
+
+      "personality": [
+        "Creative",
+        "Independent",
+        "Determined",
+        "Observant"
+      ],
+
+      "style": [
+        "Creative",
+        "Feminine",
+        "Tech Inspired"
+      ],
+
+      "identity_locked": true
+    },
+
+    {
+      "name": "Luca Hartwell",
+
+      "trinity": ["Creation"],
+
+      "region": "Western",
+      "district": "Tech Row",
+
+      "appearance_ref": "luca_v1",
+      "apartment_ref": "luca_apartment_v1",
+
+      "personality": [
+        "Reliable",
+        "Strategic",
+        "Disciplined",
+        "Analytical"
+      ],
+
+      "style": [
+        "Minimal",
+        "Neutral",
+        "Timeless"
+      ],
+
+      "identity_locked": true
+    },
+
+    {
+      "name": "Amara Hart",
+
+      "trinity": ["Growth"],
+
+      "region": "Western",
+      "district": "Western District",
+
+      "appearance_ref": "amara_v1",
+      "apartment_ref": "amara_apartment_v1",
+
+      "personality": [
+        "Warm",
+        "Empathetic",
+        "Social",
+        "Optimistic"
+      ],
+
+      "style": [
+        "Casual",
+        "Effortless",
+        "Comfortable"
+      ],
+
+      "identity_locked": true
+    }
+
+  ]
+}
