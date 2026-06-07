@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>WITB World</title>
+<title>WITB World</title>
+<style>
+body{
+font-family:Arial;
+padding:20px;
+background:#111;
+color:white;
+}
+.card{
+padding:15px;
+margin:10px 0;
+background:#222;
+border-radius:10px;
+}
+</style>
 </head>
+
 <body>
-  <h1>Welcome to WITB World</h1>
 
-  <p>Persistent World Simulation</p>
+<h1>🌍 WITB World</h1>
 
-  <ul>
-    <li>Ariel - Kori Heights</li>
-    <li>Nia - Track</li>
-    <li>Luca - System</li>
-    <li>Amara - Western Apartment</li>
-  </ul>
+<div class="card">
+<h2>World Status</h2>
+<p>Active</p>
+</div>
 
-  <p>World Status: Active</p>
+<div class="card">
+<h2>World Time</h2>
+<p id="clock"></p>
+</div>
+
+<div class="card">
+<h2>Citizens</h2>
+<ul>
+<li>Ariel — Kori Heights</li>
+<li>Nia — Track</li>
+<li>Luca — System</li>
+<li>Amara — Western Apartment</li>
+</ul>
+</div>
+
+<script>
+function updateClock(){
+const now=new Date();
+document.getElementById("clock").innerHTML=
+now.toLocaleString();
+}
+setInterval(updateClock,1000);
+updateClock();
+</script>
+
 </body>
 </html>
