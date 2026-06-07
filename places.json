@@ -1,0 +1,36 @@
+{
+  "places": [
+
+    {
+      "name": "Kori Heights",
+      "region": "Africa",
+      "type": "Residential District",
+
+      "known_for": [
+        "Apartments",
+        "Creators",
+        "Builders"
+      ],
+
+      "citizens": [
+        "Ariel Adeyemi"
+      ]
+    },
+
+    {
+      "name": "Tech Row",
+      "region": "Western",
+      "type": "Innovation District",
+
+      "known_for": [
+        "Research",
+        "Technology",
+        "Development"
+      ],
+
+      "citizens": [
+        "Luca Hartwell"
+      ]
+    }
+  ]
+}
