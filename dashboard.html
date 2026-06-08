@@ -46,11 +46,12 @@ h1{
     font-size:1.05rem;
 }
 
-.enter-card{
-    background:rgba(255,255,255,0.05);
+.citizen-card{
+    text-align:left;
+    background:rgba(255,255,255,0.03);
     border-radius:20px;
-    padding:20px;
-    margin-top:20px;
+    padding:15px;
+    margin:15px 0;
 }
 
 button{
@@ -119,6 +120,15 @@ Communities
 </div>
 
 <div class="card">
+<h2>👥 Living Citizens</h2>
+
+<div id="living-citizens">
+Loading citizens...
+</div>
+
+</div>
+
+<div class="card">
 <h2>📜 Recent History</h2>
 
 <div class="activity">
@@ -148,6 +158,52 @@ The world is alive and continuing.
 </div>
 
 </div>
+
+<script>
+async function loadCitizens() {
+
+    try {
+
+        const response = await fetch('living_citizens.json');
+        const citizens = await response.json();
+
+        let html = '';
+
+        for (const [name,data] of Object.entries(citizens)) {
+
+            html += `
+            <div class="citizen-card">
+                <h3>${name}</h3>
+
+                <p><strong>Trinity:</strong>
+                ${data.trinity.join(' ')}</p>
+
+                <p>💭 Thoughts:
+                ${data.active_thoughts.length}</p>
+
+                <p>📁 Projects:
+                ${data.active_projects.length}</p>
+
+                <p>👕 Fashion:
+                ${data.active_fashion_work.length}</p>
+
+                <p>📚 Learning:
+                ${data.active_learning.length}</p>
+            </div>
+            `;
+        }
+
+        document.getElementById('living-citizens').innerHTML = html;
+
+    } catch(error) {
+
+        document.getElementById('living-citizens').innerHTML =
+        'Unable to load living citizens.';
+    }
+}
+
+loadCitizens();
+</script>
 
 </body>
 </html>
