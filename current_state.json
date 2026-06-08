@@ -1,0 +1,27 @@
+{
+  "citizens": {
+    "Ariel": {
+      "status": "Active",
+      "current_focus": "Undiscovered districts",
+      "current_activity": "Thinking"
+    },
+
+    "Nia": {
+      "status": "Active",
+      "current_focus": "Human potential",
+      "current_activity": "Training"
+    },
+
+    "Luca": {
+      "status": "Active",
+      "current_focus": "Systems and innovation",
+      "current_activity": "Researching"
+    },
+
+    "Amara": {
+      "status": "Active",
+      "current_focus": "Fashion evolution",
+      "current_activity": "Creating"
+    }
+  }
+}
