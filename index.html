@@ -3,159 +3,163 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WITB World</title>
+
+<title>WITB WORLD</title>
 
 <style>
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
+font-family:Arial, sans-serif;
 }
 
 body{
-font-family:Arial, sans-serif;
-background:#000;
+background:
+radial-gradient(circle at top,#102b52,#05070f 60%);
 color:white;
-overflow:hidden;
-height:100vh;
+min-height:100vh;
+overflow-x:hidden;
 }
+
+/* Stars */
 
 .stars{
 position:fixed;
 width:100%;
 height:100%;
-background:
-radial-gradient(white 1px, transparent 1px),
+top:0;
+left:0;
+background-image:
 radial-gradient(white 1px, transparent 1px);
-background-size:50px 50px,100px 100px;
-background-position:0 0,25px 25px;
-animation:moveStars 60s linear infinite;
+background-size:60px 60px;
+opacity:.25;
 z-index:-2;
 }
 
-@keyframes moveStars{
-from{
-transform:translateY(0);
-}
-to{
-transform:translateY(1000px);
-}
-}
+/* Floating glow */
 
 .glow{
 position:fixed;
-width:600px;
-height:600px;
-background:radial-gradient(circle,#00d4ff33,transparent 70%);
-top:50%;
+width:500px;
+height:500px;
+border-radius:50%;
+background:rgba(0,255,200,.12);
+filter:blur(120px);
+top:-150px;
 left:50%;
-transform:translate(-50%,-50%);
-filter:blur(50px);
+transform:translateX(-50%);
 z-index:-1;
-animation:pulse 5s infinite;
+animation:floatGlow 8s ease-in-out infinite;
 }
 
-@keyframes pulse{
-0%,100%{
-transform:translate(-50%,-50%) scale(1);
-}
-50%{
-transform:translate(-50%,-50%) scale(1.2);
-}
+@keyframes floatGlow{
+0%,100%{transform:translateX(-50%) translateY(0);}
+50%{transform:translateX(-50%) translateY(40px);}
 }
 
 .container{
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
+padding:40px 20px;
+max-width:1200px;
+margin:auto;
 text-align:center;
-padding:20px;
+}
+
+.planet{
+font-size:90px;
+animation:spin 20s linear infinite;
+display:inline-block;
+margin-top:20px;
+}
+
+@keyframes spin{
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
 }
 
 .logo{
-font-size:90px;
-margin-bottom:20px;
-animation:float 4s ease-in-out infinite;
-}
-
-@keyframes float{
-0%,100%{
-transform:translateY(0);
-}
-50%{
-transform:translateY(-15px);
-}
-}
-
-h1{
 font-size:4rem;
+font-weight:900;
 letter-spacing:4px;
-margin-bottom:20px;
-background:linear-gradient(90deg,#00d4ff,#00ff88);
+background:linear-gradient(90deg,#00d4ff,#00ff99);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
+margin-top:15px;
 }
 
-.tagline{
-max-width:800px;
+.subtitle{
+margin-top:15px;
 font-size:1.2rem;
-line-height:1.8;
 opacity:.9;
-margin-bottom:40px;
 }
 
 .card{
-background:rgba(255,255,255,0.08);
-backdrop-filter:blur(15px);
-border:1px solid rgba(255,255,255,0.15);
+margin-top:40px;
+background:rgba(255,255,255,.06);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.15);
+border-radius:30px;
+padding:35px;
+box-shadow:
+0 0 30px rgba(0,255,255,.15);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:35px;
+}
+
+.panel{
+background:rgba(255,255,255,.05);
 padding:25px;
 border-radius:20px;
-max-width:850px;
-margin-bottom:35px;
-box-shadow:0 0 30px rgba(0,212,255,.15);
+transition:.3s;
+}
+
+.panel:hover{
+transform:translateY(-8px);
+box-shadow:0 0 25px rgba(0,255,200,.3);
+}
+
+.number{
+font-size:2rem;
+font-weight:bold;
+margin-top:10px;
+color:#00ffb3;
 }
 
 .enter-btn{
+margin-top:35px;
 display:inline-block;
-padding:18px 40px;
+padding:18px 45px;
 font-size:1.2rem;
 font-weight:bold;
+border-radius:60px;
 text-decoration:none;
 color:white;
-border-radius:50px;
-background:linear-gradient(90deg,#00d4ff,#00ff88);
-box-shadow:0 0 30px rgba(0,255,170,.5);
+background:linear-gradient(
+90deg,
+#00cfff,
+#00ff99
+);
+box-shadow:
+0 0 30px rgba(0,255,170,.5);
 transition:.3s;
 }
 
 .enter-btn:hover{
-transform:scale(1.08);
+transform:scale(1.05);
 }
 
 .footer{
-position:absolute;
-bottom:20px;
-font-size:.9rem;
+margin-top:40px;
 opacity:.7;
+font-size:.9rem;
 }
 
-@media(max-width:768px){
-
-.logo{
-font-size:70px;
-}
-
-h1{
-font-size:2.4rem;
-}
-
-.tagline{
-font-size:1rem;
-}
-
-}
 </style>
 </head>
 
@@ -166,36 +170,49 @@ font-size:1rem;
 
 <div class="container">
 
-<div class="logo">🌍</div>
+<div class="planet">🌍</div>
 
-<h1>WITB WORLD</h1>
+<h1 class="logo">WITB WORLD</h1>
+
+<p class="subtitle">
+A Persistent World Powered By Eternal Motion
+</p>
 
 <div class="card">
 
-<p class="tagline">
+<h2>Welcome Founder</h2>
 
-Welcome to WITB World.
-
-<br><br>
-
-A living world built on Eternal Motion, Discovery Law,
-memory, citizens, communities, and evolving stories.
-
-<br><br>
-
+<p style="margin-top:20px;line-height:1.8;">
 Every citizen matters.
-
-Every discovery changes the world.
-
-Every action becomes history.
-
-<br><br>
-
-This is not just a website.
-
-This is the beginning of a persistent world.
-
+Every discovery changes history.
+Every action becomes part of the world.
 </p>
+
+<div class="grid">
+
+<div class="panel">
+👥
+<div class="number">4</div>
+Citizens
+</div>
+
+<div class="panel">
+🏙
+<div class="number">7</div>
+Districts
+</div>
+
+<div class="panel">
+🌐
+<div class="number">1</div>
+Community
+</div>
+
+<div class="panel">
+📜
+<div class="number">127</div>
+World Year
+</div>
 
 </div>
 
@@ -206,7 +223,9 @@ This is the beginning of a persistent world.
 </div>
 
 <div class="footer">
-WITB World • Version 1.0 • Founder Timeline Active
+WITB World • Founder Timeline Active • Version 2.0
+</div>
+
 </div>
 
 </body>
