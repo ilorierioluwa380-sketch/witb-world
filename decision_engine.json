@@ -1,0 +1,25 @@
+{
+  "decision_sources": [
+    "Trinity",
+    "Thoughts",
+    "Memory",
+    "Relationships",
+    "Projects",
+    "Discoveries",
+    "Current Situation",
+    "Chance"
+  ],
+
+  "possible_decisions": [
+    "Explore",
+    "Create",
+    "Research",
+    "Collaborate",
+    "Observe",
+    "Teach",
+    "Learn",
+    "Design",
+    "Experiment",
+    "Travel"
+  ]
+}
