@@ -1,0 +1,20 @@
+{
+  "memory_types": [
+    "Discovery",
+    "Achievement",
+    "Failure",
+    "Relationship",
+    "Conversation",
+    "Fashion",
+    "Project",
+    "Observation"
+  ],
+
+  "memory_effects": [
+    "Learning",
+    "Confidence Change",
+    "New Curiosity",
+    "Relationship Change",
+    "New Opportunity"
+  ]
+}
