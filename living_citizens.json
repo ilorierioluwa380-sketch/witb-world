@@ -3,16 +3,21 @@
     "trinity": ["🤍","🪽","○-learning"],
 
     "active_thoughts": [
-      "I wonder what opportunities exist beyond Kori Heights."
+      "I wonder what opportunities exist beyond Kori Heights.",
+      "Can discoveries create new possibilities?"
     ],
 
-    "active_projects": [],
+    "active_projects": [
+      "Exploration Journal"
+    ],
 
     "active_relationships": [],
 
     "active_discoveries": [],
 
-    "active_fashion_work": [],
+    "active_fashion_work": [
+      "Mock-up interpretation"
+    ],
 
     "active_learning": [
       "Growth",
@@ -24,48 +29,75 @@
   "Nia": {
     "trinity": ["🪽"],
 
-    "active_thoughts": [],
+    "active_thoughts": [
+      "How can performance improve?"
+    ],
 
-    "active_projects": [],
+    "active_projects": [
+      "Training Progress"
+    ],
 
     "active_relationships": [],
 
     "active_discoveries": [],
 
-    "active_fashion_work": [],
+    "active_fashion_work": [
+      "Athletic style concepts"
+    ],
 
-    "active_learning": []
+    "active_learning": [
+      "Perspective",
+      "Growth"
+    ]
   },
 
   "Luca": {
     "trinity": ["○"],
 
-    "active_thoughts": [],
+    "active_thoughts": [
+      "There must be patterns hidden in the world."
+    ],
 
-    "active_projects": [],
+    "active_projects": [
+      "World Pattern Research"
+    ],
 
     "active_relationships": [],
 
     "active_discoveries": [],
 
-    "active_fashion_work": [],
+    "active_fashion_work": [
+      "Functional design concepts"
+    ],
 
-    "active_learning": []
+    "active_learning": [
+      "Perspective",
+      "Action"
+    ]
   },
 
   "Amara": {
     "trinity": ["🤍"],
 
-    "active_thoughts": [],
+    "active_thoughts": [
+      "Every design tells a story."
+    ],
 
-    "active_projects": [],
+    "active_projects": [
+      "Fashion Evolution Study"
+    ],
 
     "active_relationships": [],
 
     "active_discoveries": [],
 
-    "active_fashion_work": [],
+    "active_fashion_work": [
+      "Experimental fashion collection"
+    ],
 
-    "active_learning": []
+    "active_learning": [
+      "Creation",
+      "Growth"
+    ]
   }
 }
