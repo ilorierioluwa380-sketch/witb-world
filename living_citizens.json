@@ -1,0 +1,71 @@
+{
+  "Ariel": {
+    "trinity": ["🤍","🪽","○-learning"],
+
+    "active_thoughts": [
+      "I wonder what opportunities exist beyond Kori Heights."
+    ],
+
+    "active_projects": [],
+
+    "active_relationships": [],
+
+    "active_discoveries": [],
+
+    "active_fashion_work": [],
+
+    "active_learning": [
+      "Growth",
+      "Discovery",
+      "Becoming"
+    ]
+  },
+
+  "Nia": {
+    "trinity": ["🪽"],
+
+    "active_thoughts": [],
+
+    "active_projects": [],
+
+    "active_relationships": [],
+
+    "active_discoveries": [],
+
+    "active_fashion_work": [],
+
+    "active_learning": []
+  },
+
+  "Luca": {
+    "trinity": ["○"],
+
+    "active_thoughts": [],
+
+    "active_projects": [],
+
+    "active_relationships": [],
+
+    "active_discoveries": [],
+
+    "active_fashion_work": [],
+
+    "active_learning": []
+  },
+
+  "Amara": {
+    "trinity": ["🤍"],
+
+    "active_thoughts": [],
+
+    "active_projects": [],
+
+    "active_relationships": [],
+
+    "active_discoveries": [],
+
+    "active_fashion_work": [],
+
+    "active_learning": []
+  }
+}
