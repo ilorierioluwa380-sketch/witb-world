@@ -1,5 +1,19 @@
 {
   "people": [],
   "places": [],
-  "ideas": []
+  "ideas": [],
+
+  "sources": [
+    "Observation",
+    "Conversation",
+    "Research",
+    "Exploration",
+    "Failure",
+    "Experimentation",
+    "Creativity",
+    "Fashion",
+    "Relationships",
+    "Community Activity",
+    "Chance"
+  ]
 }
