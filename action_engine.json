@@ -1,0 +1,38 @@
+{
+  "action_sources": [
+    "Decision",
+    "Trinity",
+    "Memory",
+    "Relationships",
+    "Projects",
+    "Discoveries"
+  ],
+
+  "possible_actions": [
+    "Travel",
+    "Explore",
+    "Create",
+    "Design",
+    "Research",
+    "Train",
+    "Collaborate",
+    "Observe",
+    "Teach",
+    "Learn",
+    "Build",
+    "Experiment",
+    "Help",
+    "Share Knowledge"
+  ],
+
+  "action_results": [
+    "Discovery",
+    "Progress",
+    "Relationship Change",
+    "Achievement",
+    "Failure",
+    "Learning",
+    "New Opportunity",
+    "New Curiosity"
+  ]
+}
