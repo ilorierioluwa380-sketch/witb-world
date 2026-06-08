@@ -1,0 +1,32 @@
+{
+  "world_laws": [
+    "Eternal Motion",
+    "Discovery",
+    "Memory",
+    "Growth",
+    "Cause and Consequence",
+    "Achievement",
+    "Relationships",
+    "Fashion Creation",
+    "World Continuity"
+  ],
+
+  "citizen_rules": [
+    "Citizens are born with their Trinity",
+    "Citizens discover themselves through experience",
+    "Citizens may succeed",
+    "Citizens may fail",
+    "Citizens learn from memory",
+    "Citizens can collaborate",
+    "Citizens can create fashion",
+    "Citizens can make discoveries",
+    "Citizens are discovered, not created"
+  ],
+
+  "forbidden_systems": [
+    "Hierarchy",
+    "Religion",
+    "Politics",
+    "Evil"
+  ]
+}
