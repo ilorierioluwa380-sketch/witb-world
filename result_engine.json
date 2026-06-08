@@ -1,0 +1,35 @@
+{
+  "result_sources": [
+    "Actions",
+    "Decisions",
+    "Relationships",
+    "Projects",
+    "Experiments",
+    "Fashion",
+    "Exploration"
+  ],
+
+  "possible_results": [
+    "Success",
+    "Failure",
+    "Discovery",
+    "Progress",
+    "Relationship Formed",
+    "Relationship Lost",
+    "Achievement",
+    "New Opportunity",
+    "New Problem",
+    "Knowledge Gained",
+    "Fashion Innovation"
+  ],
+
+  "result_effects": [
+    "Memory Update",
+    "Confidence Change",
+    "Reputation Change",
+    "World Change",
+    "History Update",
+    "New Curiosity",
+    "New Decision"
+  ]
+}
