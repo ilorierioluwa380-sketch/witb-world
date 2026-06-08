@@ -2,25 +2,28 @@
   "citizen_minds": {
 
     "Ariel": {
-      "current_thought":
+      "trinity_mastered": ["🤍","🪽"],
+      "trinity_learning": "○",
+
+      "current_thoughts": [
         "I wonder what opportunities exist beyond Kori Heights.",
+        "Could undiscovered districts contain new resources?"
+      ],
 
-      "current_curiosity":
-        "Undiscovered districts",
+      "current_projects": [],
 
-      "current_discovery":
-        null,
+      "current_relationships": [],
 
-      "current_project":
-        null,
+      "current_discoveries": [],
+
+      "current_fashion_work": [],
+
+      "memories": [
+        "WITB World Activated"
+      ],
 
       "confidence": 50,
-
       "creativity": 90,
-
-      "relationships": [],
-
-      "memories": [],
 
       "skills": [
         "Observation",
@@ -30,25 +33,28 @@
     },
 
     "Nia": {
-      "current_thought":
+      "trinity_mastered": ["🪽","○"],
+      "trinity_learning": "🤍",
+
+      "current_thoughts": [
         "How far can personal performance be improved?",
+        "Can training become more efficient?"
+      ],
 
-      "current_curiosity":
-        "Human potential",
+      "current_projects": [],
 
-      "current_discovery":
-        null,
+      "current_relationships": [],
 
-      "current_project":
-        null,
+      "current_discoveries": [],
+
+      "current_fashion_work": [],
+
+      "memories": [
+        "WITB World Activated"
+      ],
 
       "confidence": 65,
-
       "creativity": 60,
-
-      "relationships": [],
-
-      "memories": [],
 
       "skills": [
         "Training",
@@ -58,25 +64,28 @@
     },
 
     "Luca": {
-      "current_thought":
+      "trinity_mastered": ["🤍","○"],
+      "trinity_learning": "🪽",
+
+      "current_thoughts": [
         "There must be a better way to solve complex problems.",
+        "What systems have not been discovered yet?"
+      ],
 
-      "current_curiosity":
-        "Systems and innovation",
+      "current_projects": [],
 
-      "current_discovery":
-        null,
+      "current_relationships": [],
 
-      "current_project":
-        null,
+      "current_discoveries": [],
+
+      "current_fashion_work": [],
+
+      "memories": [
+        "WITB World Activated"
+      ],
 
       "confidence": 75,
-
       "creativity": 85,
-
-      "relationships": [],
-
-      "memories": [],
 
       "skills": [
         "Research",
@@ -86,25 +95,28 @@
     },
 
     "Amara": {
-      "current_thought":
+      "trinity_mastered": ["🤍","🪽"],
+      "trinity_learning": "○",
+
+      "current_thoughts": [
         "Every design can become something new.",
+        "Fashion can express discovery."
+      ],
 
-      "current_curiosity":
-        "Fashion evolution",
+      "current_projects": [],
 
-      "current_discovery":
-        null,
+      "current_relationships": [],
 
-      "current_project":
-        null,
+      "current_discoveries": [],
+
+      "current_fashion_work": [],
+
+      "memories": [
+        "WITB World Activated"
+      ],
 
       "confidence": 70,
-
       "creativity": 95,
-
-      "relationships": [],
-
-      "memories": [],
 
       "skills": [
         "Design",
