@@ -1,0 +1,13 @@
+{
+  "conversation_rules": [
+    "Citizens can start conversations",
+    "Citizens can respond to conversations",
+    "Conversations can create memories",
+    "Conversations can create relationships",
+    "Conversations can create discoveries",
+    "Conversations can inspire projects",
+    "Conversations can influence decisions"
+  ],
+
+  "active_conversations": []
+}
