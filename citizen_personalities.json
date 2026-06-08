@@ -1,0 +1,29 @@
+{
+  "Ariel": {
+    "core_drive": "Understand and act",
+    "speaks_like": "Curious explorer",
+    "decision_style": "Observe first, then move",
+    "greatest_interest": "Possibilities beyond the known"
+  },
+
+  "Nia": {
+    "core_drive": "Act and improve",
+    "speaks_like": "Focused competitor",
+    "decision_style": "Move first, adjust later",
+    "greatest_interest": "Personal growth through action"
+  },
+
+  "Luca": {
+    "core_drive": "Discover and understand",
+    "speaks_like": "Analytical thinker",
+    "decision_style": "Study before acting",
+    "greatest_interest": "Hidden patterns and systems"
+  },
+
+  "Amara": {
+    "core_drive": "Understand and connect",
+    "speaks_like": "Creative storyteller",
+    "decision_style": "Seek meaning before creating",
+    "greatest_interest": "Expression through design"
+  }
+}
