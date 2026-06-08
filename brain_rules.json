@@ -1,0 +1,22 @@
+{
+  "thought_sources": [
+    "Trinity",
+    "Memory",
+    "Relationships",
+    "Discoveries",
+    "Projects",
+    "Fashion",
+    "Current Situation"
+  ],
+
+  "thought_results": [
+    "Curiosity",
+    "Questions",
+    "Ideas",
+    "Concerns",
+    "Goals",
+    "Insights"
+  ],
+
+  "citizen_principle": "Every citizen thinks before deciding."
+}
