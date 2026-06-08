@@ -1,17 +1,22 @@
 {
-“active_citizens”: [],
+  "active_citizens": [
+    "Ariel",
+    "Nia",
+    "Luca",
+    "Amara"
+  ],
 
-“active_projects”: [],
+  "active_projects": [],
 
-“active_discoveries”: [],
+  "active_discoveries": [],
 
-“active_conversations”: [],
+  "active_conversations": [],
 
-“active_fashion_projects”: [],
+  "active_fashion_projects": [],
 
-“world_status”: {
-“year”: 127,
-“day”: 365,
-“activity_level”: “Normal”
-}
+  "world_status": {
+    "year": 127,
+    "day": 365,
+    "activity_level": "Normal"
+  }
 }
