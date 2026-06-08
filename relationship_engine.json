@@ -1,0 +1,19 @@
+{
+  "relationship_types": [
+    "Friendship",
+    "Partnership",
+    "Mentorship",
+    "Collaboration",
+    "Inspiration",
+    "Family"
+  ],
+
+  "relationship_effects": [
+    "Trust",
+    "Knowledge Sharing",
+    "Creativity Boost",
+    "Confidence Boost",
+    "Opportunity Creation",
+    "Discovery Potential"
+  ]
+}
