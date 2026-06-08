@@ -1,0 +1,117 @@
+{
+  "citizen_minds": {
+
+    "Ariel": {
+      "current_thought":
+        "I wonder what opportunities exist beyond Kori Heights.",
+
+      "current_curiosity":
+        "Undiscovered districts",
+
+      "current_discovery":
+        null,
+
+      "current_project":
+        null,
+
+      "confidence": 50,
+
+      "creativity": 90,
+
+      "relationships": [],
+
+      "memories": [],
+
+      "skills": [
+        "Observation",
+        "Planning",
+        "Fashion Interpretation"
+      ]
+    },
+
+    "Nia": {
+      "current_thought":
+        "How far can personal performance be improved?",
+
+      "current_curiosity":
+        "Human potential",
+
+      "current_discovery":
+        null,
+
+      "current_project":
+        null,
+
+      "confidence": 65,
+
+      "creativity": 60,
+
+      "relationships": [],
+
+      "memories": [],
+
+      "skills": [
+        "Training",
+        "Discipline",
+        "Fashion Interpretation"
+      ]
+    },
+
+    "Luca": {
+      "current_thought":
+        "There must be a better way to solve complex problems.",
+
+      "current_curiosity":
+        "Systems and innovation",
+
+      "current_discovery":
+        null,
+
+      "current_project":
+        null,
+
+      "confidence": 75,
+
+      "creativity": 85,
+
+      "relationships": [],
+
+      "memories": [],
+
+      "skills": [
+        "Research",
+        "Innovation",
+        "Fashion Interpretation"
+      ]
+    },
+
+    "Amara": {
+      "current_thought":
+        "Every design can become something new.",
+
+      "current_curiosity":
+        "Fashion evolution",
+
+      "current_discovery":
+        null,
+
+      "current_project":
+        null,
+
+      "confidence": 70,
+
+      "creativity": 95,
+
+      "relationships": [],
+
+      "memories": [],
+
+      "skills": [
+        "Design",
+        "Creativity",
+        "Fashion Creation"
+      ]
+    }
+
+  }
+}
