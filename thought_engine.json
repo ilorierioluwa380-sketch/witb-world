@@ -1,0 +1,37 @@
+{
+“thought_sources”: [
+“Memory”,
+“Observation”,
+“Curiosity”,
+“Conversation”,
+“Discovery”,
+“Failure”,
+“Success”,
+“Fashion”,
+“Community”,
+“Relationship”,
+“Chance”
+],
+
+“thought_patterns”: [
+“What if?”,
+“Why?”,
+“How?”,
+“Could this be improved?”,
+“What happens next?”,
+“What am I missing?”,
+“What can I create?”,
+“Who can help?”
+],
+
+“mind_states”: [
+“Thinking”,
+“Observing”,
+“Questioning”,
+“Learning”,
+“Creating”,
+“Experimenting”,
+“Collaborating”,
+“Reflecting”
+]
+}
