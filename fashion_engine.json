@@ -1,0 +1,31 @@
+{
+  "fashion_capabilities": [
+    "Observation",
+    "Interpretation",
+    "Creation",
+    "Modification",
+    "Innovation",
+    "Collaboration",
+    "Experimentation"
+  ],
+
+  "fashion_sources": [
+    "Personal Experience",
+    "Discovery",
+    "Memory",
+    "Community",
+    "Relationships",
+    "Environment",
+    "Chance"
+  ],
+
+  "fashion_effects": [
+    "Self Expression",
+    "Identity Formation",
+    "Discovery",
+    "Achievement",
+    "Reputation",
+    "Community Influence",
+    "New Opportunities"
+  ]
+}
