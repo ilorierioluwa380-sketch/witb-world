@@ -1,0 +1,20 @@
+{
+  "achievement_sources": [
+    "Discovery",
+    "Creation",
+    "Innovation",
+    "Fashion",
+    "Exploration",
+    "Community Contribution",
+    "Learning",
+    "Collaboration"
+  ],
+
+  "achievement_effects": [
+    "Reputation",
+    "New Opportunities",
+    "New Relationships",
+    "World Influence",
+    "Historical Significance"
+  ]
+}
