@@ -1,0 +1,15 @@
+{
+  "tick_interval": "1 minute",
+
+  "process": [
+    "Read current_state",
+    "Read worldstate",
+    "Generate citizen decisions",
+    "Update actions",
+    "Create memories",
+    "Update relationships",
+    "Create discoveries",
+    "Update history",
+    "Update world_activity"
+  ]
+}
