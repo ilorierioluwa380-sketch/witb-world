@@ -1,0 +1,21 @@
+{
+  "reputation_sources": [
+    "Achievements",
+    "Discoveries",
+    "Fashion Influence",
+    "Community Impact",
+    "Innovation",
+    "Knowledge Sharing",
+    "Relationships",
+    "Historical Contributions"
+  ],
+
+  "reputation_effects": [
+    "Recognition",
+    "Trust",
+    "Influence",
+    "New Opportunities",
+    "New Collaborations",
+    "Historical Importance"
+  ]
+}
