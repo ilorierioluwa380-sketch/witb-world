@@ -1,19 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>WITB Test</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WITB World</title>
+
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-    background:black;
-    color:white;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    padding-top:100px;
+font-family:Arial, sans-serif;
+background:#000;
+color:white;
+overflow:hidden;
+height:100vh;
+}
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(white 1px, transparent 1px),
+radial-gradient(white 1px, transparent 1px);
+background-size:50px 50px,100px 100px;
+background-position:0 0,25px 25px;
+animation:moveStars 60s linear infinite;
+z-index:-2;
+}
+
+@keyframes moveStars{
+from{
+transform:translateY(0);
+}
+to{
+transform:translateY(1000px);
+}
+}
+
+.glow{
+position:fixed;
+width:600px;
+height:600px;
+background:radial-gradient(circle,#00d4ff33,transparent 70%);
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+filter:blur(50px);
+z-index:-1;
+animation:pulse 5s infinite;
+}
+
+@keyframes pulse{
+0%,100%{
+transform:translate(-50%,-50%) scale(1);
+}
+50%{
+transform:translate(-50%,-50%) scale(1.2);
+}
+}
+
+.container{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.logo{
+font-size:90px;
+margin-bottom:20px;
+animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-15px);
+}
+}
+
+h1{
+font-size:4rem;
+letter-spacing:4px;
+margin-bottom:20px;
+background:linear-gradient(90deg,#00d4ff,#00ff88);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.tagline{
+max-width:800px;
+font-size:1.2rem;
+line-height:1.8;
+opacity:.9;
+margin-bottom:40px;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,0.15);
+padding:25px;
+border-radius:20px;
+max-width:850px;
+margin-bottom:35px;
+box-shadow:0 0 30px rgba(0,212,255,.15);
+}
+
+.enter-btn{
+display:inline-block;
+padding:18px 40px;
+font-size:1.2rem;
+font-weight:bold;
+text-decoration:none;
+color:white;
+border-radius:50px;
+background:linear-gradient(90deg,#00d4ff,#00ff88);
+box-shadow:0 0 30px rgba(0,255,170,.5);
+transition:.3s;
+}
+
+.enter-btn:hover{
+transform:scale(1.08);
+}
+
+.footer{
+position:absolute;
+bottom:20px;
+font-size:.9rem;
+opacity:.7;
+}
+
+@media(max-width:768px){
+
+.logo{
+font-size:70px;
+}
+
+h1{
+font-size:2.4rem;
+}
+
+.tagline{
+font-size:1rem;
+}
+
 }
 </style>
 </head>
+
 <body>
-<h1>🌍 WITB WORLD IS ALIVE</h1>
-<p>If you can see this page, GitHub and Netlify are working correctly.</p>
+
+<div class="stars"></div>
+<div class="glow"></div>
+
+<div class="container">
+
+<div class="logo">🌍</div>
+
+<h1>WITB WORLD</h1>
+
+<div class="card">
+
+<p class="tagline">
+
+Welcome to WITB World.
+
+<br><br>
+
+A living world built on Eternal Motion, Discovery Law,
+memory, citizens, communities, and evolving stories.
+
+<br><br>
+
+Every citizen matters.
+
+Every discovery changes the world.
+
+Every action becomes history.
+
+<br><br>
+
+This is not just a website.
+
+This is the beginning of a persistent world.
+
+</p>
+
+</div>
+
+<a href="#" class="enter-btn">
+🚪 ENTER THE WORLD
+</a>
+
+</div>
+
+<div class="footer">
+WITB World • Version 1.0 • Founder Timeline Active
+</div>
+
 </body>
 </html>
