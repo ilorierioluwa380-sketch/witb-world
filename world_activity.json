@@ -6,17 +6,52 @@
     "Amara"
   ],
 
-  "active_projects": [],
+  "active_projects": [
+    {
+      "citizen": "Ariel",
+      "project": "Exploration Journal"
+    },
+    {
+      "citizen": "Nia",
+      "project": "Training Progress"
+    },
+    {
+      "citizen": "Luca",
+      "project": "World Pattern Research"
+    },
+    {
+      "citizen": "Amara",
+      "project": "Fashion Evolution Study"
+    }
+  ],
+
+  "active_fashion_projects": [
+    {
+      "citizen": "Ariel",
+      "work": "Mock-up interpretation"
+    },
+    {
+      "citizen": "Nia",
+      "work": "Athletic style concepts"
+    },
+    {
+      "citizen": "Luca",
+      "work": "Functional design concepts"
+    },
+    {
+      "citizen": "Amara",
+      "work": "Experimental fashion collection"
+    }
+  ],
 
   "active_discoveries": [],
 
   "active_conversations": [],
 
-  "active_fashion_projects": [],
-
   "world_status": {
     "year": 127,
-    "day": 365,
-    "activity_level": "Normal"
+    "current_day": 43,
+    "days_per_year": 365,
+    "activity_level": "Active"
   }
 }
