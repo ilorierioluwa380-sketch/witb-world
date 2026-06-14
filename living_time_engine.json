@@ -1,0 +1,45 @@
+{
+  "status": "active",
+
+  "time_rules": {
+
+    "seconds_per_minute": 60,
+
+    "minutes_per_hour": 60,
+
+    "hours_per_day": 24,
+
+    "days_per_year": 365
+  },
+
+  "world_time": {
+
+    "current_year": 127,
+
+    "current_day": 43
+  },
+
+  "regions": {
+
+    "Africa": {
+      "timezone_offset": 0
+    },
+
+    "Western": {
+      "timezone_offset": -6
+    }
+  },
+
+  "effects": [
+
+    "Advance World Clock",
+
+    "Trigger World Tick",
+
+    "Create New Day",
+
+    "Create New Year",
+
+    "Store Time History"
+  ]
+}
