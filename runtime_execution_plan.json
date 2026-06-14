@@ -1,0 +1,25 @@
+{
+  "phase": "implementation",
+
+  "runtime_cycle": [
+    "Advance Time",
+    "Load Citizens",
+    "Generate Thoughts",
+    "Generate Decisions",
+    "Generate Actions",
+    "Generate Results",
+    "Create Memories",
+    "Update Relationships",
+    "Create Discoveries",
+    "Update Achievements",
+    "Update Reputation",
+    "Update History",
+    "Update World Activity",
+    "Save Files",
+    "Commit To GitHub"
+  ],
+
+  "execution_frequency": "1 minute",
+
+  "hosting_model": "External Runtime + GitHub Pages Dashboard"
+}
