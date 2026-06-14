@@ -1,0 +1,76 @@
+{
+  "audit_status": "active",
+
+  "critical_issues": [
+
+    {
+      "id": 1,
+      "issue": "Timeline Contradiction",
+      "status": "open",
+      "description": "world_activity.json shows Year 127 Day 365 while timeline.json and history.json show Year 127 Day 43."
+    },
+
+    {
+      "id": 2,
+      "issue": "World Activity Synchronization",
+      "status": "open",
+      "description": "Citizen projects and fashion work exist but are not reflected in world_activity.json."
+    },
+
+    {
+      "id": 3,
+      "issue": "Trinity Evolution Law Missing",
+      "status": "open",
+      "description": "Citizens can learn and master additional Trinity paths, but this rule is not documented in canon."
+    },
+
+    {
+      "id": 4,
+      "issue": "Parallel Motion Law Missing",
+      "status": "open",
+      "description": "Citizens can think, learn, create, build relationships and work on projects simultaneously, but this is not documented."
+    },
+
+    {
+      "id": 5,
+      "issue": "Correction and Learning Law Missing",
+      "status": "open",
+      "description": "Mistakes, corrections and lessons should influence future decisions but this rule is not formally documented."
+    },
+
+    {
+      "id": 6,
+      "issue": "Property Registry Incomplete",
+      "status": "open",
+      "description": "Properties exist for Ariel and Nia, but not yet for Luca and Amara."
+    },
+
+    {
+      "id": 7,
+      "issue": "Property Reference Mismatch",
+      "status": "open",
+      "description": "Western Apartment exists in worldstate.json but is not defined in properties.json."
+    },
+
+    {
+      "id": 8,
+      "issue": "Citizen Naming Convention Undefined",
+      "status": "open",
+      "description": "Some files use first names only while others use full names."
+    },
+
+    {
+      "id": 9,
+      "issue": "Population Definition Ambiguity",
+      "status": "open",
+      "description": "The relationship between known citizens and discovered citizens is not clearly defined."
+    },
+
+    {
+      "id": 10,
+      "issue": "World Runtime Missing",
+      "status": "open",
+      "description": "world_tick.json defines the heartbeat process but no runtime currently executes it."
+    }
+  ]
+}
