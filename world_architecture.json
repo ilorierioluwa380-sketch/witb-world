@@ -1,0 +1,68 @@
+{
+  "architecture_version": "1.0",
+
+  "source_of_truth": {
+
+    "world_rules": "canon_rules.json",
+
+    "world_laws": "living_world_rules.json",
+
+    "timeline": "timeline.json",
+
+    "history": "history.json",
+
+    "world_state": "worldstate.json",
+
+    "world_activity": "world_activity.json",
+
+    "citizens": "living_citizens.json",
+
+    "citizen_minds": "citizen_minds.json",
+
+    "citizen_personalities": "citizen_personalities.json",
+
+    "conversations": "citizen_conversations.json",
+
+    "discoveries": "discoveries.json",
+
+    "communities": "communities.json",
+
+    "organizations": "organizations.json",
+
+    "population": "population.json",
+
+    "jobs": "jobs.json",
+
+    "economy": "economy.json",
+
+    "properties": "properties.json",
+
+    "products": "products.json"
+  },
+
+  "engines": {
+
+    "memory": "memory_engine.json",
+
+    "thought": "thought_engine.json",
+
+    "decision": "decision_engine.json",
+
+    "action": "action_engine.json",
+
+    "result": "result_engine.json",
+
+    "relationship": "relationship_engine.json",
+
+    "achievement": "achievement_engine.json",
+
+    "reputation": "reputation_engine.json",
+
+    "fashion": "fashion_engine.json"
+  },
+
+  "runtime": {
+
+    "tick_system": "world_tick.json"
+  }
+}
