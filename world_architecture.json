@@ -7,6 +7,8 @@
 
     "world_laws": "living_world_rules.json",
 
+    "trinity": "trinity.json",
+
     "timeline": "timeline.json",
 
     "history": "history.json",
