@@ -1,0 +1,40 @@
+{
+  "status": "planned",
+
+  "purpose": "Execute the living world",
+
+  "runtime_cycle": [
+
+    "Read Timeline",
+
+    "Read World State",
+
+    "Read Citizens",
+
+    "Generate Thoughts",
+
+    "Generate Decisions",
+
+    "Generate Actions",
+
+    "Generate Results",
+
+    "Create Memories",
+
+    "Update Relationships",
+
+    "Create Discoveries",
+
+    "Update Achievements",
+
+    "Update Reputation",
+
+    "Update History",
+
+    "Update World Activity",
+
+    "Save World State"
+  ],
+
+  "controlled_by": "world_tick.json"
+}
