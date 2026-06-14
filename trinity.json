@@ -1,0 +1,37 @@
+{
+  "trinity_paths": {
+
+    "🤍": {
+      "name": "Understanding",
+      "principles": [
+        "Perspective",
+        "Observation",
+        "Meaning"
+      ]
+    },
+
+    "🪽": {
+      "name": "Creation",
+      "principles": [
+        "Action",
+        "Motion",
+        "Building"
+      ]
+    },
+
+    "○": {
+      "name": "Growth",
+      "principles": [
+        "Discovery",
+        "Learning",
+        "Becoming"
+      ]
+    }
+  },
+
+  "evolution": {
+    "citizens_can_learn_other_paths": true,
+    "learning_is_not_mastery": true,
+    "original_foundation_remains": true
+  }
+}
